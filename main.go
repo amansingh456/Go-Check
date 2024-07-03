@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	switchseven "my-learning/switchSeven"
+	forloopeight "my-learning/forLoopEight"
 )
 
 func main() {
@@ -14,5 +14,6 @@ func main() {
 	// errorhandlingfour.Smaple()
 	// arrayfive.Smaple()
 	// slicessix.Sample()
-	switchseven.Sample()
+	// switchseven.Sample()
+	forloopeight.Sample()
 }
