@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	mapsnine "my-learning/mapsNine"
+	pointerselevan "my-learning/pointersElevan"
 )
 
 func main() {
@@ -16,5 +16,8 @@ func main() {
 	// slicessix.Sample()
 	// switchseven.Sample()
 	// forloopeight.Sample()
-	mapsnine.Sample()
+	// mapsnine.Sample()
+	// structten.Sample()
+	pointerselevan.Sample()
+
 }
