@@ -5,16 +5,14 @@ import "fmt"
 func Sample() {
 	fmt.Println("Hello from slice")
 	// slice is a flexible and dynamic data structure
-	numb := []int{1, 2, 3, 4, 5, 6, 7}
+	numb := []int{1, 2, 3, 4, 5, 6, 7, 8}
 	fmt.Println(numb)
 	fmt.Println(len(numb))
 
-	numb = append(numb, 8, 9)
+	numb = append(numb, 3, 9)
 	fmt.Println(numb)
-	fmt.Println(cap(numb))
+	fmt.Println(cap(numb)) // when we fill more data in slice before its declaration its capacity becomes majorly double.
 	fmt.Println(len(numb))
-
-	// so basiclly when we make slice normally without make function/keyword then the length and capacity will be same. but if any how if you want that your capacity is more but for if you want to store less value then can use make func/keyword
 
 	nums := make([]bool, 3, 10)
 	fmt.Println(nums)

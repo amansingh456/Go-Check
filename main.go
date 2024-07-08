@@ -1,11 +1,9 @@
 package main
 
-import "my-learning/userInputTwo"
-
 func main() {
 
 	// varsOne.AllVars()
-	userInputTwo.Sample()
+	// userInputTwo.Sample()
 	// funcThree.Smaple()
 	// errorhandlingfour.Smaple()
 	// arrayfive.Smaple()

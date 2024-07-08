@@ -12,10 +12,10 @@ func devide(a, b float64) (val float64, err error) {
 
 func Smaple() {
 	fmt.Println("Hello from error handling")
-	val, _ := devide(8, 2)
-	// val, err := devide(9, 0)
-	// if err != nil {
-	// 	fmt.Println("error while deviding")
-	// }
+	// val, _ := devide(8, 0)
+	val, err := devide(9, 0)
+	if err != nil {
+		fmt.Println("error while deviding")
+	}
 	fmt.Println(val)
 }
