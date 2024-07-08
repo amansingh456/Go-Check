@@ -1,14 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
+import "my-learning/userInputTwo"
 
 func main() {
 
-	fmt.Println("Hello world")
 	// varsOne.AllVars()
-	// userInputTwo.Sample()
+	userInputTwo.Sample()
 	// funcThree.Smaple()
 	// errorhandlingfour.Smaple()
 	// arrayfive.Smaple()

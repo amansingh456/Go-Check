@@ -23,7 +23,7 @@ func AllVars() {
 	fmt.Println(age)
 
 	//! difference between Printf()-> print format  & Println()-> print line
-	fmt.Println("name", name, "person", age) // expected output --> "name""Aman Singh""age"133 // response --> name Aman Singh age 133
+	fmt.Println("name", name, "person", age) // expected output --> nameAman Singhage33 // response --> name Aman Singh age 33
 	// println always add space in string
 
 	fmt.Printf("age is %d\n", age) // %d is int type formatter check
@@ -32,6 +32,6 @@ func AllVars() {
 	// %s is string type formatter check
 	fmt.Printf("name is %s\n", name)
 	// %T is typeOf formatter check
-	fmt.Printf("version is %T\n", version)
-	fmt.Printf("version is %q\n", version) // %q is a formatter for quoted string or any falue in quaoted form ""
+	fmt.Printf("version is %T\n", age)
+	fmt.Printf("version is %q\n", version) // %q is a formatter for quoted string or any value in quaoted form ""
 }
