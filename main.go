@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	pointerselevan "my-learning/pointersElevan"
 )
 
 func main() {
@@ -18,6 +17,6 @@ func main() {
 	// forloopeight.Sample()
 	// mapsnine.Sample()
 	// structten.Sample()
-	pointerselevan.Sample()
+	// pointerselevan.Sample()
 
 }
