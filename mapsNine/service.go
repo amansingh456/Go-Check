@@ -5,7 +5,7 @@ import "fmt"
 func Sample() {
 	fmt.Println("Hello world from Maps")
 
-	//! making map of students name and grade
+	//! making map of students name and grade - map is nothing but array having key value pair
 	studentGrades := make(map[string]int)
 	studentGrades["Prince"] = 34
 	studentGrades["Boab"] = 89
@@ -13,7 +13,7 @@ func Sample() {
 	studentGrades["Aman"] = 100
 
 	fmt.Println(studentGrades)
-	fmt.Println("Marks of Boab:", studentGrades["Boabs"])
+	fmt.Println("Marks of Boabs:", studentGrades["Boabs"])
 
 	//! update
 	studentGrades["Boab"] = 121

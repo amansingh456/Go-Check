@@ -14,12 +14,14 @@ func Sample() {
 	for {
 		fmt.Println("loop started")
 		counter++
-		if counter == 1 {
+		if counter == 2 {
 			break
 		}
 	}
 
-	// rnange keyword in for loop
+	// range keyword in for loop
+	//! range keyword in forloop will go to value when it is on slices, arrays, object, interface, strings
+
 	newSlice := []string{"aman", "singh", "rajawat", "anuj", "kumar", "mishra"}
 	for ind, val := range newSlice {
 		fmt.Println(ind, val)
