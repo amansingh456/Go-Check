@@ -1,5 +1,7 @@
 package main
 
+import stringsthirteen "my-learning/stringsThirteen"
+
 func main() {
 
 	// varsOne.AllVars()
@@ -13,5 +15,7 @@ func main() {
 	// mapsnine.Sample()
 	// structten.Sample()
 	// pointerselevan.Sample()
+	// dataconversiontwelve.Sample()
+	stringsthirteen.Smaple()
 
 }
