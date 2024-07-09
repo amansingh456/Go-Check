@@ -1,6 +1,8 @@
 package main
 
-import stringsthirteen "my-learning/stringsThirteen"
+import (
+	deferfourteen "my-learning/deferFourteen"
+)
 
 func main() {
 
@@ -16,6 +18,7 @@ func main() {
 	// structten.Sample()
 	// pointerselevan.Sample()
 	// dataconversiontwelve.Sample()
-	stringsthirteen.Smaple()
+	// stringsthirteen.Smaple()
+	deferfourteen.Sample()
 
 }
