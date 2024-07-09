@@ -1,8 +1,6 @@
 package main
 
-import (
-	deferfourteen "my-learning/deferFourteen"
-)
+import filehandlingfifteen "my-learning/fileHandlingFifteen"
 
 func main() {
 
@@ -19,6 +17,7 @@ func main() {
 	// pointerselevan.Sample()
 	// dataconversiontwelve.Sample()
 	// stringsthirteen.Smaple()
-	deferfourteen.Sample()
+	// deferfourteen.Sample()
+	filehandlingfifteen.Smaple()
 
 }
