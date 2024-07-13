@@ -1,7 +1,5 @@
 package main
 
-import webreqsixteen "my-learning/webReqSixteen"
-
 func main() {
 
 	// varsOne.AllVars()
@@ -19,6 +17,6 @@ func main() {
 	// stringsthirteen.Smaple()
 	// deferfourteen.Sample()
 	// filehandlingfifteen.Smaple()
-	webreqsixteen.Sample()
+	// webreqsixteen.Sample()
 
 }

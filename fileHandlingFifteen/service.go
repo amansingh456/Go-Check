@@ -3,7 +3,6 @@ package filehandlingfifteen
 import (
 	"fmt"
 	"io"
-	"io/ioutil"
 	"os"
 )
 
@@ -48,7 +47,7 @@ func Smaple() {
 	//!
 
 	//* this is a short process , if files size is very much then don't use it -  use the above one
-	content, err := ioutil.ReadFile("example.txt")
+	content, err := os.ReadFile("example.txt") // previously we uses this ioutil.Readfile()
 	if err != nil {
 		fmt.Println("error is :", err)
 		return
