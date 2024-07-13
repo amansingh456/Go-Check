@@ -1,6 +1,6 @@
 package main
 
-import filehandlingfifteen "my-learning/fileHandlingFifteen"
+import webreqsixteen "my-learning/webReqSixteen"
 
 func main() {
 
@@ -18,6 +18,7 @@ func main() {
 	// dataconversiontwelve.Sample()
 	// stringsthirteen.Smaple()
 	// deferfourteen.Sample()
-	filehandlingfifteen.Smaple()
+	// filehandlingfifteen.Smaple()
+	webreqsixteen.Sample()
 
 }
