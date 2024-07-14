@@ -1,5 +1,7 @@
 package main
 
+import urlsseventeen "my-learning/urlsSeventeen"
+
 func main() {
 
 	// varsOne.AllVars()
@@ -18,5 +20,6 @@ func main() {
 	// deferfourteen.Sample()
 	// filehandlingfifteen.Smaple()
 	// webreqsixteen.Sample()
+	urlsseventeen.Sample()
 
 }
