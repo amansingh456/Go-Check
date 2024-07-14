@@ -1,6 +1,8 @@
 package main
 
-import urlsseventeen "my-learning/urlsSeventeen"
+import (
+	jsoneighteen "my-learning/jsonEighteen"
+)
 
 func main() {
 
@@ -20,6 +22,7 @@ func main() {
 	// deferfourteen.Sample()
 	// filehandlingfifteen.Smaple()
 	// webreqsixteen.Sample()
-	urlsseventeen.Sample()
+	// urlsseventeen.Sample()
+	jsoneighteen.Sample()
 
 }
