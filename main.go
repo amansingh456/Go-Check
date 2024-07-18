@@ -1,7 +1,7 @@
 package main
 
 import (
-	jsoneighteen "my-learning/jsonEighteen"
+	crudninteen "my-learning/crudNinteen"
 )
 
 func main() {
@@ -23,6 +23,7 @@ func main() {
 	// filehandlingfifteen.Smaple()
 	// webreqsixteen.Sample()
 	// urlsseventeen.Sample()
-	jsoneighteen.Sample()
+	// jsoneighteen.Sample()
+	crudninteen.Sample()
 
 }
